@@ -3,7 +3,7 @@
 $port = getenv("PORT") ?: 8000;
 $host = "0.0.0.0"; // Permitir acceso desde cualquier IP
 
-echo "Servidor corriendo en http://$host:$port";
+
 
 // Aquí puedes seguir con tu lógica de la aplicación
 ?>
