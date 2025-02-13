@@ -1,3 +1,13 @@
+<?php
+// Obtener el puerto asignado por Railway (o usar 8000 como predeterminado)
+$port = getenv("PORT") ?: 8000;
+$host = "0.0.0.0"; // Permitir acceso desde cualquier IP
+
+echo "Servidor corriendo en http://$host:$port";
+
+// Aquí puedes seguir con tu lógica de la aplicación
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
